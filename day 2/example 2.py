@@ -1,0 +1,7 @@
+print("Enter your first name")
+first_name=input()
+print("Enter your age")
+age=input()
+print("Enter your height")
+height=input()
+print("My name is" + " "+ first_name+"and i am " + age + "years old")
