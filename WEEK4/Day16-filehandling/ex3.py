@@ -1,0 +1,7 @@
+f=open("test.txt","a")
+f.write("java\n")
+f.write("c#\n")
+f.write("visual basic\n")
+f.write("go\n")
+f.write("andriod\n")
+f.close()

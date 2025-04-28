@@ -1,0 +1,5 @@
+Name: james, Age: 45, Department: health
+Name: babrie, Age: 23, Department: IT
+Name: whitney, Age: 45, Department: education
+Name: kanyi, Age: 12, Department: care
+Name: flare, Age: 23, Department: environment
