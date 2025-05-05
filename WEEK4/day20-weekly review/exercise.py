@@ -1,6 +1,6 @@
 import RetailItem
 item1=RetailItem.RetailItem("Jacket",12,59.95)
-item2=RetailItem.RetailItem(price=34.95,description="Designers Jeans",quantity=40)#using keyword arguments
+item2=RetailItem.RetailItem(price=34.95,description="Designer Jeans",quantity=40)#using keyword arguments
 item3=RetailItem.RetailItem("Shirt",20,24.95)
 
 def get_menu_choice():
@@ -21,7 +21,7 @@ def main():
     while choice != 5:
         choice = get_menu_choice()
         if choice == 1:
-            item = input("Enter item to purchase (1-jacket,2-designer jeans,3-shirt): ")
+            item = input("Enter number of item to purchase \n1-jacket\n2-designer jeans\n3-shirt): ")
             if item == "1":
                 itemList.append(item1)
             elif item == "2":
