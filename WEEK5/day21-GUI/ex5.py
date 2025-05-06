@@ -8,6 +8,7 @@ def convert_to_celsius():
     
 root = Tk()
 root.title("Fahrenheit to Celsius Converter")
+root.geometry("500x500")
 
 lblfar=Label(root, text="Enter Temperature in Fahrenheit:")
 lblfar.pack()
